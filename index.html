@@ -14,14 +14,14 @@
 In this component, create a sub-component for basic information using the section tag. In this section create elements for the representative's image, name, district info, and political affiliation.
 Beneath the basic information, you will create a sub-component, using a section tag, to list any committees the candidate is serving on.
 The last component will hold links to any legislation that your representative has enacted. -->
-    <article class="Main-Content">
+    <article id="rep" class="rep">
         <!-- Political Representative component -->
-        <section class="rep">
+        <section class="rep--info">
             <!-- Basic Candidate info component -->
-            <img src="corker.jpeg">
-            <h2 class="name">Bob Corker</h1>
-            <p class="district">Tennessee's 5th Congressional District</p>
-            <p class="party">Republican</p>
+            <img class="rep--pic"src="corker.jpeg">
+            <h2 class="rep--name">Bob Corker</h1>
+            <p class="rep--district">Tennessee's 5th Congressional District</p>
+            <p class="rep--party">Republican</p>
             <!-- Candidates Committee information section sub-component -->
             <section class="commitees">
                 <h3>List of Committees served on</h3>
@@ -40,5 +40,6 @@ The last component will hold links to any legislation that your representative h
         </section>
 
     </article>
+    <script src="app.js"></script>
 </body>
 </html>
