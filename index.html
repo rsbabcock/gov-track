@@ -14,11 +14,20 @@ In this component, create a sub-component for basic information using the sectio
 Beneath the basic information, you will create a sub-component, using a section tag, to list any committees the candidate is serving on.
 The last component will hold links to any legislation that your representative has enacted. -->
     <article class="Main-Content">
-        <section class="basic-info">
-            <p class="name">Bob Corker</p>
+        <!-- Political Representative component -->
+        <section class="rep">
+            <!-- Basic Candidate info component -->
+            <img src="corker.jpeg">
+            <h2 class="name">Bob Corker</h1>
             <p class="district">Tennessee's 5th Congressional District</p>
             <p class="party">Republican</p>
-            <img src="corker.jpg">
+            <!-- Candidates Committee information component -->
+            <section class="commitees">
+                <ul>
+                    <li>Senate Committee on Foreign Relations</li>
+                    <li>Senate Committee on Banking, Housing and Urban Affairs</li>
+                </ul>
+            </section>
         </section>
 
     </article>
