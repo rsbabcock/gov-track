@@ -11,4 +11,4 @@ const textNode = document.createTextNode("To save the world one penguin at a tim
 node.appendChild(textNode);
 // node. is referencing the node variable and appending a child to it, in this case the textNode
 document.getElementById('rep').appendChild(node);
-// acesses dom with getElementById and id=rep, then appends Child, with the node.
+// acesses dom with getElementById and id=rep, then appends Child, with the node.w
